@@ -1,0 +1,24 @@
+#root {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.Box{
+  background: F5F5F5;
+  /* display: grid; */
+  width: 100%;
+}
+
+.headingFont{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: -0.02em; */
+  color: #000000;
+}
+
+.buttonMenu{
+  height: 35px;
+  border: none;
+}
