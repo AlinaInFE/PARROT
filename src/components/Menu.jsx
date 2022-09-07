@@ -25,7 +25,7 @@ export default function MenuButtons(){
             placeItems: "center",
             zIndex: 5,
             }}>
-                <Grid item xs={2}/>
+                <Grid item xs={1} md={2}/>
                 <Grid item xs={2}>
                 <Button
                 variant="text"
