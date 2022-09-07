@@ -21,7 +21,7 @@ export default function Footer(){
             mt: "174px"}}>
 
                 <Grid container justifyContent="center" alignItems="center" columns={9} spacing={2}
-                sx={{ml: {xs: "30%", lg: "15%"}}}>
+                sx={{ml: {xs: "7%", lg: "15%"}}}>
                 <Grid item xs={9} md={4} lg={3}>
                 <Box 
                 sx={{

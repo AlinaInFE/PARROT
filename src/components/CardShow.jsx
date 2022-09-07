@@ -30,7 +30,7 @@ const postsList = [
 export default function CardShow(){
     return(
         <Box sx={{width: "100%",
-        mt: {md:"25px", xs: "10px"},
+        // mt: {md:"25px", xs: "10px"},
         // ml: "-30px",
         display: {xs:'block', md: 'flex'},}}>
             <Grid container justifyContent="center" alignItems="center" columns={16} spacing={4}>
@@ -38,7 +38,7 @@ export default function CardShow(){
             {postsList.map((el, i) => {
                 return(
                     <Grid item xs={16} md={8} lg={5} xl={4}> 
-                    <Box sx={{width: "100%"}}>
+                    <Box sx={{width: {xs:"90%", md:"100%"}}}>
                         <Box
                         id={`${el.picName}${el.artistName}${i}`}
                         sx={{

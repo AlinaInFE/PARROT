@@ -77,7 +77,7 @@ export default function MenuButtons(){
                 </IconButton>
                 </Grid>
 
-                <Grid item xs={3}>
+                <Grid item xs={2}>
                 <Button
                 id="basic-button"
                 aria-controls={open ? 'basic-menu' : undefined}

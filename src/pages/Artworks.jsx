@@ -10,7 +10,7 @@ export default function Artworks(){
 
     return(
         <Box sx={{mt: "100px", 
-        ml: {xs: "15%", md: 3},
+        ml: {xs: "7%", md: 3},
         width: "100%"}}>
             
             <Grid container justifyContent="center" alignItems="center" columns={13}>
