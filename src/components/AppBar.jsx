@@ -27,7 +27,7 @@ export default function AppBar(){
             zIndex: 5}}>
         <Grid container justifyContent="center" alignItems="center" columns={13}>
             
-            <Grid item xs={12} md={4} sx={{ml: {xs: "20%", sm:"35%", lg: 20}}}>
+            <Grid item xs={12} md={4} sx={{ml: {xs: "7%", sm:"35%", lg: 20}}}>
             <Box
             justifyContent="center" alignItems="center"
             sx={{
